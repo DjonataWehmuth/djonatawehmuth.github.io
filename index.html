@@ -1,15 +1,87 @@
 <html>
     <head>
-        <title>Djonata Wehmuth</title>
+        <title>.:Djonata Wehmuth:. :GITHUB:</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
-        <script src="http://livrosdomaujor.com.br/jquerymobile/2ed/scripts/jquery-1.9.1.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+        <link rel="stylesheet" href="jquery.mobile.min.css" />
+        <script src="jquery-1.9.1.min.js"></script>
+        <script src="jquery.mobile.min.js"></script>
+        <script>
+
+        </script>
     </head>
     <body>
-        <div data-role="header" data-theme="b">
-                <h1>Djonata Wehmuth</h1>
+
+        <div data-role="page" id="pageone" data-theme="b">
+            <div data-role="header">
+                <h1>Djonata Wehmuth</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#" class="ui-btn-active ui-state-persist" data-icon="home">Perfil</a></li>
+                        <li><a href="#pagetwo" data-icon="bars" data-transition="slide">Projetos</a></li>
+                        <li><a href="#contato" data-icon="comment" data-transition="slide">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-role="main" class="ui-content">
+
+                <div data-role="collapsible">
+                    <h1>Redes Sociais</h1>
+                    <p><a href="https://www.linkedin.com/in/djonatawehmuth" target="_blank" class="ui-btn">Linkedin</a></p>
+                    <p><a href="https://www.facebook.com/djonata.wehmuth" target="_blank" class="ui-btn">Facebook</a></p>
+                    <p><a href="https://www.instagram.com/dedyy2/" target="_blank" class="ui-btn">Instagram</a></p>                
+                </div>
+            </div>
+
+            <div data-role="footer">
+                <h1><a href="https://github.com/DjonataWehmuth" target="_blank" class="ui-btn" style="text-decoration: none">GITHUB.COM/DJONATAWEHMUTH</a></h1>
+            </div>
+        </div>
+
+        <div data-role="page" id="pagetwo" data-theme="b">
+            <div data-role="header">
+                <h1>Meus Projetos</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#pageone" data-icon="home" data-transition="slidefade">Perfil</a></li>
+                        <li><a href="#" class="ui-btn-active ui-state-persist" data-icon="bars">Page Two</a></li>                        
+                        <li><a href="#contato" data-icon="comment" data-transition="slide">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <p>Você pode estar visitando o meu Repositório completo clicando no link no final da página!</p>
+            </div>
+
+            <div data-role="footer">
+                <h1><a href="https://github.com/DjonataWehmuth" target="_blank" class="ui-btn" style="text-decoration: none">GITHUB.COM/DJONATAWEHMUTH</a></h1>
+            </div>
+        </div>
+        <div data-role="page" id="contato" data-theme="b">
+            <div data-role="header">
+                <h1>Contato</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#pageone" data-icon="home" data-transition="slidefade">Perfil</a></li>
+                        <li><a href="#pagetwo" data-icon="bars" data-transition="slidefade">Projeto</a></li>
+                        <li><a href="#" class="ui-btn-active ui-state-persist" data-icon="comment">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <p>Ficou interessado no trabalho?</p>
+                <p>Você pode entrar em contato pelos seguintes locais!</p>
+                    <a href="mailto:djonata1098@gmail.com" class="ui-btn">Djonata1098@gmail.com</a>
+                    <a href="https://www.facebook.com/messages/djonata.wehmuth" class="ui-btn">Facebook</a>
+            </div>
+
+            <div data-role="footer">
+                <h1><a href="https://github.com/DjonataWehmuth" target="_blank" class="ui-btn" style="text-decoration: none">GITHUB.COM/DJONATAWEHMUTH</a></h1>
+            </div>
         </div>
     </body>
 </html>
+
